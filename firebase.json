@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "public",
+    "public": "dist/earth-pulse/browser",
     "ignore": [
       "firebase.json",
       "**/.*",
