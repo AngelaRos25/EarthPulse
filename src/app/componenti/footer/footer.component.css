@@ -1,0 +1,31 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  color: white;
+}
+
+.footer p {
+  text-align: center;
+  margin: 3px;
+}
+.icon-footer {
+  margin-top: 5px;
+}
+
+fa-icon {
+  font-size: 28px;
+  margin: 5px;
+}
+
+a{
+  color: #1D3557;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+ a:hover {
+  color: #295ba0;
+}

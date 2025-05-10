@@ -1,0 +1,25 @@
+<div class="container">
+  <div class="main-container">
+    <h1>Global Temperature Trends</h1>
+    <div class="p-container">
+      <p>The current global warming rate is not natural.
+        <br>
+        From 1880 to 1981 was (0.07°C / 0.13°F) per decade.
+        <br>
+        Since 1981 this rate has increased to (0.18°C / 0.32°F)
+        <br>
+        <br>
+        Earth temperature and the proportion of gases such as Co2, methane, and nitrous oxide in the atmosphere is
+        strictly correlated.
+      </p>
+        <button mat-raised-button color="primary" (click)="return()" class="back-button">
+          <mat-icon>
+            arrow_circle_left
+          </mat-icon>
+        </button>
+    </div>
+  </div>
+  <div *ngIf="stockChartOptions" class="charts-container">
+    <canvasjs-stockchart [options]="stockChartOptions" [styles]="{width: '100%', height:'500px'}"></canvasjs-stockchart>
+  </div>
+</div>

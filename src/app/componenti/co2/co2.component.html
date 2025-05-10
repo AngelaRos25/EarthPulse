@@ -1,0 +1,21 @@
+<div class="container">
+  <div class="main-container">
+    <h1>CO2 Levels</h1>
+    <div class="p-container">
+      <p>
+        Carbon dioxide concentrations are rising mostly because of the fossil fuels that people are burning for energy. Fossil fuels like coal and oil contain carbon that plants pulled out of the atmosphere through photosynthesis over many millions of years.
+        <br>
+        For thousands of years, the natural concentration of CO2 in earth atmosphere was around 280 ppm. From the beginning of the industrial revolution, human activities like the burning of fossil fuels, deforestation, and livestock have increased this amount by more than 30%.
+      </p>
+      <button mat-raised-button color="primary" (click)="return()" class="back-button">
+        <mat-icon>
+          arrow_circle_left
+        </mat-icon>
+      </button>
+    </div>
+  </div>
+
+  <div *ngIf="stockChartOptions" class="charts-container">
+    <canvasjs-stockchart [options]="stockChartOptions" [styles]="{width: '100%', height:'500px'}"></canvasjs-stockchart>
+  </div>
+</div>

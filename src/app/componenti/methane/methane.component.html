@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="main-container">
+    <h1>Methane Levels</h1>
+    <div class="p-container">
+      <p>
+        Methane is a flammable gas formed by geological and biological processes. Some of the natural ones are leaks from natural gas systems and wetlands.
+        50-65% of total global methane emissions come from human activities. These include livestock, agriculture, oil and gas systems, waste from homes and businesses, landfills, and so on.
+        <br>
+        Methane is a gas with a global warming potential several times stronger than of CO2. From the beginning of the industrial revolution, human activities have increased this amount by around 150%.
+      </p>
+      <button mat-raised-button color="primary" (click)="return()" class="back-button">
+        <mat-icon>
+          arrow_circle_left
+        </mat-icon>
+      </button>
+    </div>
+  </div>
+
+  <div *ngIf="stockChartOptions" class="charts-container">
+    <canvasjs-stockchart [options]="stockChartOptions" [styles]="{width: '100%', height:'500px'}"></canvasjs-stockchart>
+  </div>
+</div>

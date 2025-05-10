@@ -1,0 +1,257 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  width: 85%;
+  height: 450px;
+  margin: 16px;
+  background-color: #F1FAEE;
+  border: 10px solid #1D3557;
+}
+
+.header-img {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 40px;
+  z-index: 1;
+}
+
+.world-img {
+  background: url('../../../assets/image/0zaq_ag24_210203.jpg');
+  background-size: cover;
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  animation: earth 70s linear infinite;
+  margin: 10px;
+  transform: rotateX(6deg) rotateY(6deg) rotateZ(6deg);
+  transform-style: preserve-3d;
+  box-shadow: inset 0 0 20px rgb(0, 0, 0), 0 0 50px rgba(10, 113, 248, 0.534);
+}
+
+@keyframes earth {
+  0% {background-position: 0 0}
+  100% {background-position: 6289px 0}
+}
+
+.header-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  bottom: -80px;
+  padding: 16px;
+  z-index: 999;
+}
+
+h1 {
+  width: 100%;
+  color: #e63946;
+  text-shadow: 3px 3px 5px #1D3557;
+  font-size: 55px;
+  margin: 15px;
+}
+
+.important-p {
+  width: 100%;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.content-card {
+  display:  flex;
+  align-items: center;
+  flex-direction: column; 
+}
+
+.explain-p {
+  color: #F1FAEE;
+  line-height: 25px;
+  width: 95%;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+}
+
+a{
+  color: #1D3557;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.content-card mat-icon {
+  color: #F1FAEE;
+  width: 60px;
+  height: 60px;
+  font-size: 55px;
+}
+
+
+
+@media screen and (min-width:800px){
+  .container {
+    flex-direction: row;
+    margin: 30px;
+    width: 55%;
+  }
+  
+  .header-img {
+    background-color: #F1FAEE;
+    position: relative;
+    right: 50px;
+    top: 0;
+    align-items: center;
+    border-left: 10px solid  #e63946;
+    border-top: 10px solid  #e63946;
+    border-bottom: 10px solid #e63946;
+    width: 500px;
+    height: 300px;
+  }
+
+  .world-img {
+    width: 220px;
+    height: 220px;
+  }
+
+  .header-content {
+    height: 80%;
+    padding: 20px;
+    bottom: 0;
+  }
+  
+  h1 {
+    font-size: 75px;
+  }
+  
+  .important-p {
+    font-size: 25px;
+  }
+  
+  .explain-p {
+    width: 55%;
+  }
+  
+}
+
+
+
+
+
+
+/* .header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 55%;
+  height: 450px;
+  margin: 30px;
+  background-color: #F1FAEE;
+  border: 10px solid #1D3557;
+}
+
+.header-img {
+  background-color: #F1FAEE;
+  position: relative;
+  right: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-left: 10px solid  #e63946;
+  border-top: 10px solid  #e63946;
+  border-bottom: 10px solid #e63946;
+  width: 500px;
+  height: 300px;
+}
+
+
+.world-img {
+  background: url('../../../assets/image/0zaq_ag24_210203.jpg');
+  background-size: cover;
+  border-radius: 50%;
+  width: 220px;
+  height: 220px;
+  animation: earth 70s linear infinite;
+  margin: 10px;
+  transform: rotateX(6deg) rotateY(6deg) rotateZ(6deg);
+  transform-style: preserve-3d;
+  box-shadow: inset 0 0 20px rgb(0, 0, 0), 0 0 50px rgba(10, 113, 248, 0.534);
+}
+
+@keyframes earth {
+  0% {background-position: 0 0}
+  100% {background-position: 6289px 0}
+}
+
+.header-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  height: 80%;
+  padding: 20px;
+}
+
+h1 {
+  width: 100%;
+  color: #e63946;
+  text-shadow: 3px 3px 5px #1D3557;
+  font-size: 75px;
+  margin: 15px;
+}
+
+.important-p {
+  width: 100%;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.explain-p {
+  color: #F1FAEE;
+  line-height: 25px;
+  width: 55%;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+}
+
+
+.content-card {
+  display:  flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+a{
+  color: #1D3557;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.content-card mat-icon {
+  color: #F1FAEE;
+  width: 60px;
+  height: 60px;
+  font-size: 55px;
+} */

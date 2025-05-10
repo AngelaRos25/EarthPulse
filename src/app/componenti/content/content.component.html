@@ -1,0 +1,10 @@
+<div class="card-container">
+  <!-- card temperature -->
+  <mat-card *ngFor="let card of cards" [ngStyle]="{'background-image': 'url(' + card.image +')'}"   class="temperature" appearance="outlined">
+    <mat-card-title>{{card.title}}</mat-card-title>
+    <button [routerLink]="card.link" class="explore" mat-raised-button>
+      EXPLORE GRAPHS
+      <mat-icon>chevron_right</mat-icon>
+    </button>
+  </mat-card>
+</div>

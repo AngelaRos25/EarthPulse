@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="main-container">
+    <h1>Nitrous Oxide Levels</h1>
+    <div class="p-container">
+      <p>
+        Nitrous oxide is a gas that is produced by the combustion of fossil fuel and solid waste, nitrogen-base
+        fertilizers, sewage treatment plants, natural processes, and other agricultural and industrial activities.
+        <br>
+        It is the third largest heat-trapping gas in the atmosphere and the biggest ozone-destroying compound emitted by
+        human activities.
+      </p>
+      <button mat-raised-button color="primary" (click)="return()" class="back-button">
+        <mat-icon>
+          arrow_circle_left
+        </mat-icon>
+      </button>
+    </div>
+  </div>
+
+  <div *ngIf="stockChartOptions" class="charts-container">
+    <canvasjs-stockchart [options]="stockChartOptions" [styles]="{width: '100%', height:'500px'}"></canvasjs-stockchart>
+  </div>
+</div>

@@ -1,0 +1,14 @@
+mat-icon {
+  width: 40px;
+  height: 40px;
+  font-size: 40px;
+  padding: 10px;
+}
+
+.p-container {
+  margin-top: 0;
+}
+
+.charts-container {
+  top: 0;
+}
