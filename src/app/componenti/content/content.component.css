@@ -60,7 +60,22 @@ mat-icon {
   color: black;
 }
 
-@media screen and (min-width:900px){
+@media screen and (min-width:901px) and (max-width:1200px){
+ .card-container {
+    flex-direction: row;
+  }
+
+   mat-card {
+    width: 16%;
+    height: 400px;
+  }
+
+    mat-card-title {
+    font-size: 1.1em;
+  }
+}
+
+@media screen and (min-width:1200px){
   .card-container {
     flex-direction: row;
   }
@@ -73,7 +88,7 @@ mat-icon {
   
   
   mat-card-title {
-    font-size: 35px;
+    font-size: 2em;
   }
   
 }

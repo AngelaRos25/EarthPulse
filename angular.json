@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "heartTrack": {
+    "earthPulse": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -40,8 +40,8 @@
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kB",
-                  "maximumError": "1MB"
+                  "maximumWarning": "4mb",
+                  "maximumError": "5mb"
                 },
                 {
                   "type": "anyComponentStyle",
@@ -63,10 +63,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "heartTrack:build:production"
+              "buildTarget": "earthPulse:build:production"
             },
             "development": {
-              "buildTarget": "heartTrack:build:development"
+              "buildTarget": "earthPulse:build:development"
             }
           },
           "defaultConfiguration": "development"
