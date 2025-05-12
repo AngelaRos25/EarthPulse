@@ -6,7 +6,7 @@
 
 ## About the Project
 This application is developed using Angular framework, and is based on the APIs provided by Global Warming,
-it should consist of dashboard to view a global warming data.
+it should consist of a dashboard to view a global warming data.
 to make charts I used the graphics library [Canvas.js](https://canvasjs.com/)
 
 
