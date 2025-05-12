@@ -1,6 +1,6 @@
 # EarthPulse
 
-<img src="src/assets/image/image.png" width="600" heigth="500">
+<img align="center" src="src/assets/image/image.png" width="600" heigth="500">
 
 ## About the Project
 This application is developed using Angular framework, and is based on the APIs provided by Global Warming,
