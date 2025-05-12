@@ -54,10 +54,6 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## External Services
 - [Global Warming](https://global-warming.org/api)
 
-## Technologies Used
--![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)
-
-
 ##  Try It!
 You can try it here: [Earth Pulse](https://earthpulse-4652e.web.app/)
 
