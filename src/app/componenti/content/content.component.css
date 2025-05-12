@@ -66,12 +66,12 @@ mat-icon {
   }
 
    mat-card {
-    width: 16%;
+    width: 17%;
     height: 400px;
   }
 
     mat-card-title {
-    font-size: 1.1em;
+    font-size: 1.3rem;
   }
 }
 
@@ -88,7 +88,7 @@ mat-icon {
   
   
   mat-card-title {
-    font-size: 2em;
+    font-size: 1.8rem;
   }
   
 }
