@@ -1,7 +1,7 @@
 # EarthPulse
 
 <div align="center">
-<img src="src/assets/image/image.png" width="600" heigth="500">
+<img src="src/assets/image/image.png" width="600" heigth="600">
 </div>
 
 ## About the Project
