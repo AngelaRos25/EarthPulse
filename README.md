@@ -11,7 +11,7 @@
 1. Clone repository:
    
    ```bash
-   git clone https://github.com/Giangy25/urban-horizon
+   git clone https://github.com/Giangy25/EarthPulse.git
    ```
 2. Navigate to the project directory and open in VSCode:
    
